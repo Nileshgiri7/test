@@ -1,233 +1,70 @@
-<a name="readme-top"></a>
-<div align="center">
-
-  ![Project Banner](readme_assets/readme_banner.png#gh-dark-mode-only)
-  ![Project Banner](readme_assets/readme_banner-light.png#gh-light-mode-only)
-
-  <h1>Three.js 3D Portfolio</h1>
-  
-  <p>
-    Three.js 3D Portfolio is a modern UI/UX and functional Developer Portfolio Web built with React & Three.js
-  </p>
-
-<!-- Badges -->
-<p>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/ladunjexa/Threejs_3D_Portfolio" alt="contributors" />
-  </a>
-  <a href="">
-    <img src="https://img.shields.io/github/last-commit/ladunjexa/Threejs_3D_Portfolio" alt="last update" />
-  </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/network/members">
-    <img src="https://img.shields.io/github/forks/ladunjexa/Threejs_3D_Portfolio" alt="forks" />
-  </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/stargazers">
-    <img src="https://img.shields.io/github/stars/ladunjexa/Threejs_3D_Portfolio" alt="stars" />
-  </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/issues/">
-    <img src="https://img.shields.io/github/issues/ladunjexa/Threejs_3D_Portfolio" alt="open issues" />
-  </a>
-  <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/ladunjexa/Threejs_3D_Portfolio.svg" alt="license" />
-  </a>
-</p>
-   
- <h4>
-    <a href="https://threejs-3-d-portfolio.vercel.app/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/issues/">Request Feature</a>
-  </h4>
-</div>
-
-<br />
-
-<!-- Table of Contents -->
-<details>
-
-<summary>
-
-# :notebook_with_decorative_cover: Table of Contents
-
-</summary>
-
-- [About the Project](#star2-about-the-project)
-  * [Folder Structure](#bangbang-folder-structure)
-  * [Tech Stack](#space_invader-tech-stack)
-- [Getting Started](#toolbox-getting-started)
-  * [Installation](#gear-installation)
-  * [Run Locally](#running-run-locally)
-- [Contributing](#wave-contributing)
-- [License](#warning-license)
-- [Contact](#handshake-contact)
-- [Acknowledgements](#gem-acknowledgements)
-
-</details>  
-
-<!-- About the Project -->
-## :star2: About the Project
-
-<div align="center">
-  <img src="readme_assets/3d-portfolio.png" height="auto" width="90%"/>
-</div>
-
-<br />
-
-This repository houses an well-designed and functional Developer Portfolio Website consisting Navbar, Hero, Overview, Work Experience, Technologies, Projects, Testimonials and Contact sections built with React & Three.js using TailwindCSS ⏭
+# Getting Started with Create React App
 
-<!-- Folder Structure -->
-### :bangbang: Folder Structure
-
-Here is the folder structure of 3D-Portfolio.
-```bash
-Threejs_3D_Portfolio/
-|- public/
-|- src/
-  |-- assets/
-  |-- components/
-  |-- constants/
-  |-- hoc/
-  |-- utils/
-  |-- App.jsx
-  |-- index.css
-  |-- main.jsx
-  |-- styles.js
-|- postcss.config.cjs
-|- tailwind.config.cjs
-|- vite.config.js
-```
-<br />
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<!-- TechStack -->
-### :space_invader: Tech Stack
+## Available Scripts
 
-[![My Skills](https://skillicons.dev/icons?i=js,react,tailwind,threejs)](https://skillicons.dev)
+In the project directory, you can run:
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### `npm start`
 
-<!-- Getting Started -->
-## :toolbox: Getting Started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<!-- Installation -->
-### :gear: Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-#### Step 1:
-Download or clone this repo by using the link below:
+### `npm test`
 
-```bash
- https://github.com/ladunjexa/Threejs_3D_Portfolio.git
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-#### Step 2:
+### `npm run build`
 
-3D-Portfolio using NPM (Node Package Manager), therefore, make sure that Node.js is installed by execute the following command in console:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-  node -v
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-#### Step 3:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-At the main folder execute the following command in console to get the required dependencies:
+### `npm run eject`
 
-```bash
-  npm install
-```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-#### Step 4:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-At the main folder execute the following command in console to creates a build directory with a production build of 3d portfolio:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-```bash
-  npm run build
-```
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-#### Step 5:
+## Learn More
 
-At the main folder execute the following command in console to run the server:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-  npm run start
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-<!-- Run Locally -->
-### :running: Run Locally
+### Code Splitting
 
-#### Step 1:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-At the main folder execute the following command in console to get the required dependencies:
+### Analyzing the Bundle Size
 
-```bash
-  npm install
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-#### Step 2:
+### Making a Progressive Web App
 
-At the main folder execute the following command in console to run the development server:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-```bash
-  npm run dev
-```
+### Advanced Configuration
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-<!-- Contributing -->
-## :wave: Contributing
+### Deployment
 
-<a href="https://github.com/ladunjexa/Threejs_3D_Portfolio/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ladunjexa/Threejs_3D_Portfolio" />
-</a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-Contributions are always welcome!
-
-See [`contributing.md`](https://contributing.md/) for ways to get started.
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- License -->
-## :warning: License
-
-Distributed under the MIT License. See [LICENSE.txt](https://github.com/ladunjexa/Threejs_3D_Portfolio/blob/main/LICENSE) for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Contact -->
-## :handshake: Contact
-
-Liron Abutbul - [@lironabutbul6](https://twitter.com/lironabutbul6) - [@ladunjexa](https://t.me/ladunjexa)
-
-Project Link: [https://github.com/ladunjexa/Threejs_3D_Portfolio](https://github.com/ladunjexa/Threejs_3D_Portfolio)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-This section used to mention useful resources and libraries that used in 3D Portfolio
-
- - [Email JS](https://www.emailjs.com/)
- - [Framer Motion](https://www.framer.com/motion/)
- - [React Tilt](https://www.npmjs.com/package/react-tilt)
- - [React Vertical Timeline Component](https://www.npmjs.com/package/react-vertical-timeline-component)
- - #JSMastery
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="center">
-<img src="https://github.com/ladunjexa/Threejs_3D_Portfolio/blob/main/public/logo.png" height="auto" width="10%" />
-</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
